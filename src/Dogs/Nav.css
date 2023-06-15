@@ -1,0 +1,18 @@
+.NavBar {
+    background-color: #FF8551;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.NavBar a {
+    text-decoration: none;
+    margin: 15px;
+    color: white;
+    font-weight: bold;
+}
+
+.NavBar a.active {
+    color: black;
+}
